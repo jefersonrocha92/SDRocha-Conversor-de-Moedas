@@ -1,0 +1,32 @@
+print('-*-='*5)
+print('Conversor de moedas')
+print('-*-='*5)
+
+# Código de Conversão de moedas
+
+
+while True:
+    conversão = input('Vamos iniciar a conversão ,Caso queira digite \'E\' para continuar.')
+    if conversão == 'e' or conversão == 'E':
+        break
+
+real = float(input('Quanto dinheiro você tem na carteira?  R$?'))
+dolar = real / 5.37
+euro = real / 6.47
+iene = real / 0.051
+renmimbi = real / 0.83
+libra = real / 7.47
+guarani = real / 0.00081
+pesoarg = real / 0.060
+print('Com R${:.2f} você pode comprar US${:.2f}' .format(real, dolar))
+print('COm R${:.2f} você pode comprar EUR${:.2f}' .format(real, euro))
+print('Com R${:.2f} você pode comprar YEN${:.2f}' .format(real, iene))
+print('Com R${:.2f} você pode comprar RMB${:.2f}' .format(real, renmimbi))
+print('Com R${:.2f} você pode comprar Y${:.2f}'.format(real, libra))
+print('Com R${:.2f} você pode comprar GYC${:.2f}' .format(real, guarani))
+print('Com R${:.2f} você pode comprar ARS${:.2f}' .format(real, pesoarg))
+
+print('-*-='*16)
+print('InRobot Dev.Mobile/Web!')
+print('Desenvolvimento de Apps Mobile e Web ,Facilitando seu dia-a-dia')
+print('-*-='*16)
